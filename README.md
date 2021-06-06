@@ -8,56 +8,60 @@ For more info please read "Project Description.pdf".
 ## Project Essentials
 ### Grammar
 This is a sample MiniJava grammar (BNF notation) that you can use for your compiler's parser.
+
 *Note: This grammar is just a sample. You can change it to your need according to your design in the first phase of project.* 
 ```java
-Goal	::=	MainClass ( ClassDeclaration )* <EOF>
+Goal ::= MainClass ( ClassDeclaration )* <EOF>
 
-MainClass	::=	
+MainClass ::= 
 	"class" Identifier "{" 
 		"public" "static" "void" "main" "(" "String" "[" "]" Identifier ")" "{" 
 			Statement 
 		"}" 
 	"}"
 
-ClassDeclaration	::=	
+ClassDeclaration ::=	
 	"class" Identifier ( "extends" Identifier )? "{" 
 		( VarDeclaration )* ( MethodDeclaration )* 
 	"}"
 
-VarDeclaration	::=	Type Identifier ";"
+VarDeclaration ::= Type Identifier ";"
 
-MethodDeclaration	::=	
+MethodDeclaration ::= 
 	"public" Type Identifier "(" ( Type Identifier ( "," Type Identifier )* )? ")" 
 		"{" ( VarDeclaration )* ( Statement )* "return" Expression ";" 
 	"}"
 
-Type	::=	"int" "[" "]"
-|	"boolean"
-|	"int"
-|	Identifier
+Type ::= 
+	"int" "[" "]"
+	| "boolean"
+	| "int"
+	| Identifier
 
-Statement	::=	"{" ( Statement )* "}"
-|	"if" "(" Expression ")" Statement "else" Statement
-|	"while" "(" Expression ")" Statement
-|	"System.out.println" "(" Expression ")" ";"
-|	Identifier "=" Expression ";"
-|	Identifier "[" Expression "]" "=" Expression ";"
+Statement ::= 
+	"{" ( Statement )* "}"
+	| "if" "(" Expression ")" Statement "else" Statement
+	| "while" "(" Expression ")" Statement
+	| "System.out.println" "(" Expression ")" ";"
+	| Identifier "=" Expression ";"
+	| Identifier "[" Expression "]" "=" Expression ";"
 
-Expression	::=	Expression ( "&&" | "<" | "+" | "-" | "*" ) Expression
-|	Expression "[" Expression "]"
-|	Expression "." "length"
-|	Expression "." Identifier "(" ( Expression ( "," Expression )* )? ")"
-|	<INTEGER_LITERAL>
-|	"true"
-|	"false"
-|	Identifier
-|	"this"
-|	"new" "int" "[" Expression "]"
-|	"new" Identifier "(" ")"
-|	"!" Expression
-|	"(" Expression ")"
+Expression ::= 
+	Expression ( "&&" | "<" | "+" | "-" | "*" ) Expression
+	| Expression "[" Expression "]"
+	| Expression "." "length"
+	| Expression "." Identifier "(" ( Expression ( "," Expression )* )? ")"
+	| <INTEGER_LITERAL>
+	| "true"
+	| "false"
+	| Identifier
+	| "this"
+	| "new" "int" "[" Expression "]"
+	| "new" Identifier "(" ")"
+	| "!" Expression
+	| "(" Expression ")"
 
-Identifier	::=	<IDENTIFIER>
+Identifier ::= <IDENTIFIER>
 ```
 ## License
 MIT
