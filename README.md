@@ -3,7 +3,8 @@
 
 ## Introduction
 This is the main repository for compiler design course project at university of technology of shiraz.
-For more info please read "Project Description.pdf".
+
+For more info please read **[Project Description.pdf](https://github.com/mehrbanian/sutech-compiler-1400/blob/main/Project%20Description.pdf)**.
 
 ## Project Essentials
 ### Grammar
