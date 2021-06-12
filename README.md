@@ -7,6 +7,9 @@ This is the main repository for compiler design course project at university of 
 For more info please read **[Project Description.pdf](https://github.com/mehrbanian/sutech-compiler-1400/blob/main/Project%20Description.pdf)**.
 
 ## Project Essentials
+### Inputs
+You have to test your compiler test inputs, placed in **inputs** directory.
+
 ### Grammar
 This is a sample MiniJava grammar (BNF notation) that you can use for your compiler's parser.
 
