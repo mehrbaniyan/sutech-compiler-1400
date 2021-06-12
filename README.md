@@ -9,7 +9,9 @@ For more info please read **[Project Description.pdf](https://github.com/mehrban
 ## Project Essentials
 ### Inputs
 You have to test your compiler with the sample inputs, placed in **inputs** directory.
+
 If you have done the optional assigments of this project, you can test your compiler with the sample inputs placed in **inputs/optional** directory.
+
 
 ### Grammar
 This is a sample MiniJava grammar (BNF notation) that you can use for your compiler's parser.
