@@ -1,0 +1,19 @@
+/* 
+    Sutech Compiler Project 1400
+*/
+void main() {
+    int a = 3;
+    float c = 4.1;
+    boolean x = false;
+    while(a < 10) {
+        a += 1;
+    }
+
+    String str = "I studied this course at Sutech";
+    // Some random comment here
+    if(a == 10) {
+        x = true;
+    } else {
+        x = false;
+    }
+}

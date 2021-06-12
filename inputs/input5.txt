@@ -1,0 +1,4 @@
+void main() {
+    float c = 4.1;
+    c = "stop";
+}

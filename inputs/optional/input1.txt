@@ -1,0 +1,16 @@
+class Sutech {
+    static int first = 10;
+
+    void main() {
+        switch(expression) {
+          case x:
+            // code block
+            break;
+          case y:
+            // code block
+            break;
+          default:
+            // code block
+        }
+    }
+}
