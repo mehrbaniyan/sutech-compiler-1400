@@ -2,11 +2,17 @@
 # Sutech Compiler Project - 1400
 
 ## Introduction
-This is the main repository for compiler design course project at university of technology of shiraz.
+This is the main repository for compiler design course project at Shiraz university of technology.
 
 For more info please read **[Project Description.pdf](https://github.com/mehrbanian/sutech-compiler-1400/blob/main/Project%20Description.pdf)**.
 
 ## Project Essentials
+### Inputs
+You have to test your compiler with the sample inputs, placed in **inputs** directory.
+
+If you have done the optional assigments of this project, you can test your compiler with the sample inputs placed in **inputs/optional** directory.
+
+
 ### Grammar
 This is a sample MiniJava grammar (BNF notation) that you can use for your compiler's parser.
 
