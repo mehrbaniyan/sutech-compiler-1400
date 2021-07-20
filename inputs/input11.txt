@@ -1,0 +1,13 @@
+void main() {
+    int sut = 2;
+    int x;
+    if(sut == 1) {
+        x = 1;
+    } else if (sut == 2) {
+        x = 2;
+    } else if (sut >= 3 && sut <= 5) {
+        x = 3;
+    } else {
+        x = 6;
+    }
+}

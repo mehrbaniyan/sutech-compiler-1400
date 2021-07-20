@@ -1,0 +1,8 @@
+void main() {
+    int sutech = 2;
+    for(int i = 0; i < 10; i++) {
+        sutech--;
+        if(i == 5) continue;
+    }
+    if(j == false) sutech = 2;
+}

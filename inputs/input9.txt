@@ -1,0 +1,11 @@
+void main() {
+    boolean x;
+    int a = 9;
+    String str = "I studied this course at Sutech";
+    / Some random comment here
+    if(a == 10) {
+        x = true;
+    } else {
+        x = false;
+    }
+}
