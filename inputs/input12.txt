@@ -1,0 +1,6 @@
+void main() {
+    int sut = 2;
+    int c = 400;
+    c = (c / (sut + 2)) - 5;
+    c = (c % (sut)) * 1 );
+}
